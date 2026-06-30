@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="20260630_Function_橋冨陽心.cpp" />
+    <ClCompile Include="20260630_PracMain_橋冨陽心.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="20260630_Header_橋冨陽心.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
