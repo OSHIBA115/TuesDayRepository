@@ -1,6 +1,4 @@
 #include<iostream>
-#include<cstdlib>
-#include<ctime>
 #include"20260707_Header1_橋冨陽心.h"
 
 using namespace std;
@@ -11,8 +9,6 @@ int main(void)
 	int ary[INDEX];
 	int even[INDEX] = {};
 	int odd[INDEX] = {};
-	//乱数初期化
-	srand((unsigned int)time(NULL));
 	//入力＆チェック
 	AddArray(ary, INDEX);
 	//偶数・奇数に振り分け
