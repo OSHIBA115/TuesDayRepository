@@ -18,7 +18,7 @@ int main()
     int strike = 0;//ストライクカウントを入れる
     int ball = 0;//ボールカウントをいれる
     int out = 0;//アウトカウントを入れる
-    int hit = 0;
+    int hit = 0;//ヒットカウントを入れる
     //乱数初期化
     srand((unsigned int)time(nullptr));
 
