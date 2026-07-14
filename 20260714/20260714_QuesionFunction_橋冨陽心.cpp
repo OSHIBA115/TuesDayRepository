@@ -49,7 +49,7 @@ void Result(int out)
 int InputCheck(int min, int max)
 {
     //•Ï”éŒ¾
-    int player;
+    int player;//“ü—Í“à—e‚ğ•Û‘¶‚µ‚Ä•Ô‚·‚½‚ß
     //³‚µ‚¢“à—e‚ª“ü—Í‚³‚ê‚é‚Ü‚ÅŒJ‚è•Ô‚µ
     while (true)
     {

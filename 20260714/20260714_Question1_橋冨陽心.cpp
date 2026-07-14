@@ -11,13 +11,13 @@ using namespace std;
 int main()
 {
     //変数宣言
-    int player;
-    int cpu;
-    int probability;
+    int player;//プレイヤーの選択内容を入れる
+    int cpu;//CPUの選択内容を入れる
+    int probability;//確率を保存
 
-    int strike = 0;
-    int ball = 0;
-    int out = 0;
+    int strike = 0;//ストライクカウントを入れる
+    int ball = 0;//ボールカウントをいれる
+    int out = 0;//アウトカウントを入れる
     int hit = 0;
     //乱数初期化
     srand((unsigned int)time(nullptr));
