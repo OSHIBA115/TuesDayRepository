@@ -7,5 +7,8 @@ using namespace std;
 
 int main(void)
 {
+	//—”‰Šú‰»
+	srand((unsigned int)time(NULL));
+
 	return 0;
 }
