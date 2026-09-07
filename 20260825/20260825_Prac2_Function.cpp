@@ -1,9 +1,82 @@
 #include<iostream>
-#include"20260825_Prac1_Dog.h"
+#include"20260825_Prac2_Function.h"
 
 using namespace std;
 
-void Dog::ShowProfile(std::string name)
+void Game()
 {
-	cout << "–¼‘O‚Í@" << name << "@‚Å‚·" << endl;
+	//ƒvƒŒƒCƒ„[ƒNƒ‰ƒX‚ðŽÀ‘Ì‰»
+	Calculator;
+
+	//•Ï”éŒ¾
+	int user1, user2, select, userContinue;
+
+	cout << "”Žš‚ð“ñ‚Â“ü—Í‚µ‚Ä‚­‚¾‚³‚¢" << endl;
+
+	cin >> user1;
+	cin >> user2;
+
+	cout << "s‚¢‚½‚¢‰‰ŽZ‚ð ‰ÁŽZF‚O Œ¸ŽZF‚P æŽZF‚Q œŽZF‚R ‚Æ‚µ‚Ä“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B" << endl;
+
+	cin >> select;
+
+	switch (select)
+	{
+	case add:
+		Calculator::add;
+		break;
+
+	case subtract:
+		Calculator::subtract;
+		break;
+
+	case multiply:
+		Calculator::multiply;
+		break;
+
+	case divide:
+		Calculator::divide;
+	}
+
+	cout << "ŒvŽZ‚ð‘±‚¯‚Ü‚·‚©H ‘±‚¯‚éF‚O I‚í‚éF‚P ‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B" << endl;
+
+	cin >> userContinue;
+
+	if (userContinue == 0)
+	{
+
+	}
+	else
+	{
+
+	}
+
+
+
+
+}
+
+void InputCheck(int max,int min)
+{
+
+}
+
+void Calculator::add()
+{
+
+}
+
+void Calculator::subtract()
+{
+
+}
+
+void Calculator::multiply()
+{
+
+}
+
+void Calculator::divide()
+{
+
 }

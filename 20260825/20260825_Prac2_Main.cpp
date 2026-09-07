@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void)
 {
-	//プレイヤークラスを実体化
+	Game();
 
 	return 0;
 }
