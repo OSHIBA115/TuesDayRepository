@@ -9,7 +9,9 @@ const int CONTINUE_MAX = 1;
 
 //関数プロトタイプ宣言
 void Game();
-void InputCheck(int max,int min);
+int FirstInputCheck();
+int SecondInputCheck(int max);
+void CalculaturSelect();
 
 //クラス
 class Calculator
@@ -19,9 +21,10 @@ public:
 	int num1;
 	int num2;
 
-	//プレイヤーができること
-	
+	//コンストラクタ
+	Calculator();
 
+	//プレイヤーができること
 	/// <summary>
 	/// 2つの数値の和を返す。
 	/// </summary>

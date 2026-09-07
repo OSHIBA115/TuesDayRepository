@@ -139,11 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20260825_Prac1_Dog.cpp" />
-    <ClCompile Include="20260825_Prac1_Main.cpp" />
+    <ClCompile Include="20260825_Prac2_Function.cpp" />
+    <ClCompile Include="20260825_Prac2_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="20260825_Prac1_Dog.h" />
+    <ClInclude Include="20260825_Prac2_Function.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
