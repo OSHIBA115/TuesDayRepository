@@ -2,24 +2,25 @@
 #include"Player.h"
 #include"Enemy.h"
 #include"Boss.h"
+#include"Wizard.h"
+#include"BattleManager.h"
 
 using namespace std;
 
 int main(void)
 {
 	//コンストラクタ
-	Player player;
-	Enemy enemy;
-	Boss boss;
+	Player player("勇者ハス吉");
+	Wizard wizard("ツチノコ");
+	Enemy enemy("スライム");
+	Boss boss("魔王");
+	
+	BattleManager manager;
 
-	Character* character;//ポインタ型
-
-	character = &player;//プレイヤーのポインタを受け取る
-	character->Attack();
-	character = &enemy;//敵のポインタを受け取る
-	character->Attack();
-	character = &boss;//ボスのポインタを受け取る
-	character->Attack();
+	manager.StartBattle(&player);
+	manager.StartBattle(&wizard);
+	manager.StartBattle(&enemy);
+	manager.StartBattle(&boss);
 
 
 	return 0;
