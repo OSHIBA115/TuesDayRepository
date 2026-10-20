@@ -1,0 +1,10 @@
+#pragma once
+#include "Sorcerer.h"
+#include<string>
+class Inumaki :
+    public Sorcerer
+{
+public:
+    void ShowStatus()override;
+    void UseTechnique() override;
+};
