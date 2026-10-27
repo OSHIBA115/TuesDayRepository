@@ -1,12 +1,14 @@
 #pragma once
 class Enemy
 {
-private:
-	int hp;
 public:
+	int hp;
+
 	Enemy(int hp);
 	~Enemy();
 
 	void ShowHp() const;
+	void Damage(int damage);
+	void GetHp();
 };
 

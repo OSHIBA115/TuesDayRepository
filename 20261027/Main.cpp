@@ -17,12 +17,42 @@ int main(void)
 	{
 		num = rand() % 70 + 30;
 		enemies.push_back(Enemy(num));
-
 	}
 
 	//“o˜^‚µ‚½“à—e‚ğŒ©‚Ä‚İ‚Ü‚µ‚å‚¤
 	//”’l‚ğ•Ï‚¦‚½‚¢‚È‚çconst‚Í‚¢‚ç‚È‚¢
-	for (const Enemy& enemy: enemies)
+	for (const Enemy& enemy : enemies)
+	{
+		enemy.ShowHp();
+	}
+
+	int select;
+	int damage;
+
+	cout << "UŒ‚‚·‚é“G‚ğ‚O`‚Q‚©‚ç‘I‘ğ‚µ‚Ä‚­‚¾‚³‚¢" << endl;
+	cin >> select;
+
+	damage = rand() % 70 + 20;
+
+	enemies[select].Damage(damage);
+
+	for (Enemy& enemy : enemies)
+	{
+		enemy.ShowHp();
+	}
+
+	for (int i = 0; i < 2; i++)
+	{
+		if (enemies[i].hp <= 0)
+		{
+			enemies.erase(enemies.begin() + i);
+			cout << "“G‚ğíœ‚µ‚Ü‚µ‚½\n" << endl;
+		}
+	}
+
+	cout << "\n" << endl;
+
+	for (Enemy& enemy : enemies)
 	{
 		enemy.ShowHp();
 	}
