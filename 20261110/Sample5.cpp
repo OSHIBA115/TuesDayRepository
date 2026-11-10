@@ -1,4 +1,5 @@
 #include<iostream>
+#include<memory>
 #include"EnemySample5.h"
 
 int main(void)
@@ -12,7 +13,6 @@ int main(void)
 	target->TakeDamage(30);
 
 	enemy.ShowStatus();
-	*/
 
 	Enemy* enemy = new Enemy();
 
@@ -21,6 +21,19 @@ int main(void)
 
 	delete enemy;
 	enemy = nullptr;
+
+	*/
+
+	//Enemy‚ğ¶¬‚µ‚ÄŠÇ—
+
+	std::unique_ptr<Enemy> enemy = std::make_unique<Enemy>();
+
+	enemy->TakeDamage(60);
+
+	std::cout << "“G‚Ì";
+
+	enemy->ShowStatus();
+
 
 	return 0;
 }

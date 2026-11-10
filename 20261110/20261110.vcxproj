@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EnemySample5.cpp" />
     <ClCompile Include="Sample5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnemySample5.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
