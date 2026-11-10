@@ -14,6 +14,9 @@ int main(void)
 	target = &enemy2;
 	target->TakeDamage(50);
 
+	target = &enemy3;
+	target->TakeDamage(70);
+
 	enemy1.ShowStatus();
 	enemy2.ShowStatus();
 	enemy3.ShowStatus();
