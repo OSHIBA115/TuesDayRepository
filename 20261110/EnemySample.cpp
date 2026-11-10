@@ -13,3 +13,19 @@ void EnemySample4::ShowStatus() const
 {
 	std::cout << "Enemy HP: " << hp << std::endl;
 }
+
+bool EnemySample4::DeathCheck()
+{
+	if (hp <= 0)
+	{
+		return false;
+	}
+}
+
+bool EnemySample4::GameSetCheck()
+{
+	if (hp <= 0)
+	{
+		return false;
+	}
+}

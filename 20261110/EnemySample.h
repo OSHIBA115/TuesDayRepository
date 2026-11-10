@@ -7,4 +7,7 @@ public:
 	EnemySample4();
 	void TakeDamage(int damage);
 	void ShowStatus() const;
+
+	bool DeathCheck();
+	bool GameSetCheck();
 };
