@@ -1,5 +1,6 @@
 #include "Game.h"
 #include"Enemy.h"
+#include"EnemyManager.h"
 
 #include<iostream>
 #include<memory>
